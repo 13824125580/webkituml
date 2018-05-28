@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><diagram program="umlet" version="11.3">
-  <zoom_level>10</zoom_level>
+  <zoom_level>5</zoom_level>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>620</x>
-      <y>420</y>
-      <w>210</w>
-      <h>300</h>
+      <x>1100</x>
+      <y>335</y>
+      <w>105</w>
+      <h>150</h>
     </coordinates>
     <panel_attributes>&lt;&lt;WebProcessPool&gt;&gt;
-WebCoreProcess
+WebKitUIProcess
 --
 -m_process;
 -m_networkProcess;
@@ -33,10 +33,10 @@ operation:
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>890</x>
+      <x>1235</x>
       <y>250</y>
-      <w>190</w>
-      <h>50</h>
+      <w>95</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>IPC::MessageReceiver_
 --
@@ -46,10 +46,10 @@ operation:
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>230</x>
+      <x>905</x>
       <y>250</y>
-      <w>370</w>
-      <h>50</h>
+      <w>185</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>_API::ObjectImpl&lt;API::Object::Type::ProcessPool&gt;_
 --
@@ -59,32 +59,32 @@ operation:
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>380</x>
-      <y>270</y>
-      <w>320</w>
-      <h>170</h>
+      <x>980</x>
+      <y>260</y>
+      <w>159</w>
+      <h>84</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
-    <additional_attributes>30;30;30;120;300;120;300;150</additional_attributes>
+    <additional_attributes>15;15;15;60;150;60;150;75</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>730</x>
-      <y>270</y>
-      <w>290</w>
-      <h>170</h>
+      <x>1155</x>
+      <y>260</y>
+      <w>144</w>
+      <h>84</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
-    <additional_attributes>270;30;270;120;30;120;30;150</additional_attributes>
+    <additional_attributes>135;15;135;60;15;60;15;75</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>310</x>
-      <y>150</y>
-      <w>190</w>
-      <h>50</h>
+      <x>945</x>
+      <y>200</y>
+      <w>95</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Object
 --
@@ -94,21 +94,21 @@ operation:
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>380</x>
-      <y>170</y>
-      <w>50</w>
-      <h>100</h>
+      <x>980</x>
+      <y>210</y>
+      <w>24</w>
+      <h>49</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
-    <additional_attributes>30;30;30;80</additional_attributes>
+    <additional_attributes>15;15;15;40</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Note</type>
     <coordinates>
-      <x>1070</x>
-      <y>20</y>
-      <w>430</w>
-      <h>160</h>
+      <x>1090</x>
+      <y>125</y>
+      <w>215</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>WebProcessPool机制工作原理类图
 bg=red
@@ -116,5 +116,664 @@ bg=red
 2.m_networkPRocess表示webkitnetworkprocess进程
 3.m_storageProcess表示webkitstorageprocess进程</panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>725</x>
+      <y>455</y>
+      <w>105</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;ChildProcessProxy&gt;&gt;
+WebKitUIProcess
+--
+-m_processLauncher;
+-m_connection;
+-m_messageReceiverMap;
+-m_pendingMessages
+-m_connection
+-......;
+--
+operation:
+-connect
+-connection
+-terminate
+-addMessageReceiver
+-removeMessageReceiver
+......
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>815</x>
+      <y>660</y>
+      <w>105</w>
+      <h>105</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;NetworkProcessProxy&gt;&gt;
+WebKitUIProcess
+--
+-m_processPool;
+-......;
+--
+operation:
+-create
+-throttler
+-processPool
+-getLaunchOptions
+-getNetworkProcessConnection
+......
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>760</x>
+      <y>570</y>
+      <w>94</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>15;15;15;80;85;80;85;90</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>610</x>
+      <y>375</y>
+      <w>105</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>ProcessLauncher::Client
+WebKitUIProcess
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>735</x>
+      <y>375</y>
+      <w>105</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>IPC::Connection::Client
+WebKitUIProcess
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>860</x>
+      <y>375</y>
+      <w>140</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>ThreadSafeRefCounted&lt;ChildProcessProxy&gt;
+WebKitUIProcess
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>645</x>
+      <y>395</y>
+      <w>109</w>
+      <h>69</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>15;15;15;45;100;45;100;60</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>765</x>
+      <y>395</y>
+      <w>24</w>
+      <h>69</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>15;15;15;60</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>800</x>
+      <y>395</y>
+      <w>139</w>
+      <h>69</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>130;15;130;45;15;45;15;60</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>890</x>
+      <y>535</y>
+      <w>105</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;ProcessThrottlerClient&gt;&gt;
+WebKitUIProcess
+--
+-......;
+--
+operation:
+......
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>860</x>
+      <y>575</y>
+      <w>109</w>
+      <h>94</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>100;15;100;75;15;75;15;85</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>650</x>
+      <y>660</y>
+      <w>105</w>
+      <h>125</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;WebProcessProxy&gt;&gt;
+WebKitUIProcess
+--
+-m_processPool;
+-......;
+--
+operation:
+-create
+-throttler
+-processPool
+-getLaunchOptions
+-getNetworkProcessConnection
+-getStorageProcessConnection
+-connectionWillOpen
+-processWillShutDown
+......
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>685</x>
+      <y>570</y>
+      <w>64</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>55;15;55;80;15;80;15;90</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>660</x>
+      <y>575</y>
+      <w>269</w>
+      <h>94</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>260;15;260;65;15;65;15;85</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>585</x>
+      <y>535</y>
+      <w>105</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;ResponsivenessTimer::Client,&gt;&gt;
+WebKitUIProcess
+--
+-......;
+--
+operation:
+......
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>620</x>
+      <y>575</y>
+      <w>49</w>
+      <h>94</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>15;15;15;65;40;65;40;85</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>1010</x>
+      <y>660</y>
+      <w>105</w>
+      <h>105</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;StorageProcessProxy&gt;&gt;
+WebKitUIProcess
+--
+-m_processPool;
+-......;
+--
+operation:
+-create
+-throttler
+-processPool
+-getLaunchOptions
+-getStorageProcessConnection
+......
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>800</x>
+      <y>570</y>
+      <w>269</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>15;15;15;85;260;85;260;90</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>450</x>
+      <y>525</y>
+      <w>125</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;ProcessLauncher&gt;&gt;
+WebKitUIProcess
+--
+ProcessType
+Launchoptions
+Client
+--
+-m_isLaunching;
+-m_processIdentifier;
+-m_launchOptions;
+-m_weakPtrFactory;
+-m_client;
+-......;
+--
+operation:
+-create
+-isLaunching
+-terminateProcess
+-invalidate
+-didFinishLaunchingProcess(socketPair);
+......
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>465</x>
+      <y>400</y>
+      <w>105</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>ThreadSafeRefCounted
+WebKitUIProcess
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>465</x>
+      <y>465</y>
+      <w>105</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>ThreadSafeRefCounted
+WebKitUIProcess
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>505</x>
+      <y>420</y>
+      <w>24</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>15;15;15;45</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>505</x>
+      <y>485</y>
+      <w>24</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>15;15;15;40</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>560</x>
+      <y>465</y>
+      <w>174</w>
+      <h>69</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+fg=red</panel_attributes>
+    <additional_attributes>15;60;95;60;95;15;165;15</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>695</x>
+      <y>320</y>
+      <w>414</w>
+      <h>374</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+bg=
+fg=red</panel_attributes>
+    <additional_attributes>405;15;335;15;335;205;160;205;160;310;90;310;90;365;15;365</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>855</x>
+      <y>330</y>
+      <w>254</w>
+      <h>364</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+fg=red</panel_attributes>
+    <additional_attributes>245;15;190;15;190;285;120;285;120;355;15;355</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>1045</x>
+      <y>340</y>
+      <w>94</w>
+      <h>354</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+fg=red</panel_attributes>
+    <additional_attributes>55;15;15;15;15;275;85;275;85;345;20;345</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>740</x>
+      <y>345</y>
+      <w>369</w>
+      <h>329</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+fg=magenta</panel_attributes>
+    <additional_attributes>15;320;65;320;65;275;135;275;135;175;325;175;325;15;360;15</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>905</x>
+      <y>350</y>
+      <w>204</w>
+      <h>319</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+fg=magenta</panel_attributes>
+    <additional_attributes>15;310;90;310;100;310;100;195;170;195;170;15;195;15</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>1070</x>
+      <y>360</y>
+      <w>84</w>
+      <h>309</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+fg=magenta</panel_attributes>
+    <additional_attributes>45;300;75;300;75;230;15;230;15;15;30;15</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>625</x>
+      <y>200</y>
+      <w>105</w>
+      <h>155</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Connection&gt;&gt;
+WebKitUIProcess
+--
+-m_client;
+-m_isServer
+-m_isConnected
+-m_connectionQueue
+-m_inSendSyncCount
+-m_inDispatchMessageCount
+-......;
+--
+operation:
+-createServerConnection
+-createClientConnection
+-sendMessage
+-platformInitialize
+-open
+-invalidate
+-createPlatformConnection
+......
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>610</x>
+      <y>140</y>
+      <w>140</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>ThreadSafeRefCounted
+WebKitUIProcess
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>615</x>
+      <y>80</y>
+      <w>140</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>ThreadSafeRefCountedBase
+WebKitUIProcess
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>670</x>
+      <y>100</y>
+      <w>24</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>15;15;15;40</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>670</x>
+      <y>160</y>
+      <w>24</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>15;15;15;40</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>675</x>
+      <y>185</y>
+      <w>104</w>
+      <h>309</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+fg=red</panel_attributes>
+    <additional_attributes>55;15;95;15;95;175;50;175;50;240;15;240;15;300;50;300</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>385</x>
+      <y>215</y>
+      <w>105</w>
+      <h>145</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;WorkQueue&gt;&gt;
+WebKitUIProcess
+--
+QOS
+Type
+--
+-m_dispatchQueue;
+-m_functionQueueLock
+-m_isWorkThreadRegistered
+-m_runLoop
+-m_timerQueue
+-m_initializeRunLoopCondition
+-......;
+--
+operation:
+-create
+-dispatch
+-dispatchAfter
+......
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>420</x>
+      <y>150</y>
+      <w>140</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>FunctionDispatcher
+WebKitUIProcess
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>425</x>
+      <y>170</y>
+      <w>74</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>65;15;65;35;15;35;15;45</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>475</x>
+      <y>100</y>
+      <w>184</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>175;75;175;90;105;90;105;15;15;15;15;50</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>475</x>
+      <y>200</y>
+      <w>159</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+fg=red</panel_attributes>
+    <additional_attributes>15;15;105;15;105;45;150;45</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>205</x>
+      <y>370</y>
+      <w>105</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>SocketPair
+WebKitUIProcess
+--
+-client
+-server</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>295</x>
+      <y>320</y>
+      <w>344</w>
+      <h>59</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+fg=red</panel_attributes>
+    <additional_attributes>15;50;270;50;270;15;335;15</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>230</x>
+      <y>390</y>
+      <w>234</w>
+      <h>290</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+Create
+fg=blue</panel_attributes>
+    <additional_attributes>25;15;25;280;225;280</additional_attributes>
   </element>
 </diagram>
