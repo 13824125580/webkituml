@@ -1494,8 +1494,8 @@ fg=red</panel_attributes>
     <coordinates>
       <x>336</x>
       <y>2002</y>
-      <w>581</w>
-      <h>119</h>
+      <w>580</w>
+      <h>118</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>567;21;504;21;504;105;21;105</additional_attributes>
@@ -1551,8 +1551,8 @@ WebKitWebProcess
     <coordinates>
       <x>168</x>
       <y>2002</y>
-      <w>84</w>
-      <h>70</h>
+      <w>83</w>
+      <h>69</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 fg=red</panel_attributes>
@@ -1576,7 +1576,7 @@ fg=red</panel_attributes>
       <x>1148</x>
       <y>1946</y>
       <w>189</w>
-      <h>231</h>
+      <h>252</h>
     </coordinates>
     <panel_attributes>PlatformDisplay
 WebKitWebProcess
@@ -1599,6 +1599,7 @@ operation:
 -messageSenderConnection
 -m_nativeDisplayOwned
 -PlatformDisplay
+-createPlatformDisplay
 ......
 
 </panel_attributes>
@@ -1655,20 +1656,20 @@ operation:
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>1001</x>
-      <y>2156</y>
-      <w>259</w>
-      <h>98</h>
+      <y>2177</y>
+      <w>258</w>
+      <h>76</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
-    <additional_attributes>245;21;245;70;21;70;21;84</additional_attributes>
+    <additional_attributes>245;21;245;49;21;49;21;63</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>1001</x>
       <y>2359</y>
-      <w>35</w>
-      <h>91</h>
+      <w>34</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>21;21;21;77</additional_attributes>
@@ -1758,8 +1759,8 @@ operation:
     <coordinates>
       <x>210</x>
       <y>2219</y>
-      <w>35</w>
-      <h>84</h>
+      <w>34</w>
+      <h>83</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>21;21;21;70</additional_attributes>
@@ -1769,8 +1770,8 @@ operation:
     <coordinates>
       <x>203</x>
       <y>2345</y>
-      <w>217</w>
-      <h>98</h>
+      <w>216</w>
+      <h>97</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>21;21;21;49;203;49;203;84</additional_attributes>
