@@ -72,8 +72,8 @@ operation:
     <coordinates>
       <x>1561</x>
       <y>350</y>
-      <w>196</w>
-      <h>112</h>
+      <w>203</w>
+      <h>119</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>189;21;189;84;21;84;21;105</additional_attributes>
@@ -577,7 +577,7 @@ fg=magenta</panel_attributes>
       <x>805</x>
       <y>154</y>
       <w>161</w>
-      <h>336</h>
+      <h>343</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Connection&gt;&gt;
 WebKitUIProcess
@@ -1494,8 +1494,8 @@ fg=red</panel_attributes>
     <coordinates>
       <x>336</x>
       <y>2002</y>
-      <w>580</w>
-      <h>118</h>
+      <w>581</w>
+      <h>119</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>567;21;504;21;504;105;21;105</additional_attributes>
@@ -1551,8 +1551,8 @@ WebKitWebProcess
     <coordinates>
       <x>168</x>
       <y>2002</y>
-      <w>83</w>
-      <h>69</h>
+      <w>84</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 fg=red</panel_attributes>
@@ -1656,8 +1656,8 @@ operation:
     <coordinates>
       <x>1001</x>
       <y>2156</y>
-      <w>258</w>
-      <h>97</h>
+      <w>259</w>
+      <h>98</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>245;21;245;70;21;70;21;84</additional_attributes>
@@ -1667,8 +1667,8 @@ operation:
     <coordinates>
       <x>1001</x>
       <y>2359</y>
-      <w>34</w>
-      <h>90</h>
+      <w>35</w>
+      <h>91</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>21;21;21;77</additional_attributes>
@@ -1758,8 +1758,8 @@ operation:
     <coordinates>
       <x>210</x>
       <y>2219</y>
-      <w>34</w>
-      <h>83</h>
+      <w>35</w>
+      <h>84</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>21;21;21;70</additional_attributes>
@@ -1769,8 +1769,8 @@ operation:
     <coordinates>
       <x>203</x>
       <y>2345</y>
-      <w>216</w>
-      <h>97</h>
+      <w>217</w>
+      <h>98</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>21;21;21;49;203;49;203;84</additional_attributes>
