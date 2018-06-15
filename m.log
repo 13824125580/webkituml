@@ -1,0 +1,225 @@
+createPlatformDisplay line 89, pid 1438.
+createContext line 234, pid 1438.
+createContext line 240, pid 1438.
+createContext line 249, pid 1438.
+createSharingContext line 286, pid 1438.
+createSharingContext line 301, pid 1438.
+createSurfacelessContext line 204, pid 1438.
+createSharingContext line 304, pid 1438.
+createSharingContext line 312, pid 1438.
+createContext line 255, pid 1438.
+createSurfacelessContext line 204, pid 1438.
+createContext line 266, pid 1438.
+createPlatformDisplay line 89, pid 1452.
+createSharingContext line 286, pid 1452.
+createSharingContext line 301, pid 1452.
+createSurfacelessContext line 204, pid 1452.
+createSharingContext line 304, pid 1452.
+createSharingContext line 312, pid 1452.
+debug  : omx_vdec <omx_vdec:401>: (f:omx_vdec, l:401) 
+debug  : cedarc <getVeAwOpsS:1582>: ***********3333 getVeAwOpsS************
+debug  : cedarc <VeInitialize:882>: *****************gVeEnvironmentInfo.nVeRefCount = 0
+debug  : cedarc <VeInitialize:895>: **********gVeEnvironmentInfo.nVeDriverFd = 37
+debug  : cedarc <VeInitialize:956>: *** nPhyOffset = 40000000
+debug  : omx_vdec <omx_vdec:559>: ** nPhyOffset = 40000000
+debug  : cedarc <CdcMessageQueueCreate:47>: nMessageSize = 40
+debug  : cedarc <CdcMessageQueueCreate:47>: nMessageSize = 40
+debug  : cedarc <CdcMessageQueueCreate:47>: nMessageSize = 40
+warning: cedarc <AddVDPlugin:1534>: 1117 get local path: /usr/lib/
+warning: cedarc <AddVDPlugin:1544>:  1117 load so: /usr/lib/libcdc_vd_mpeg4dx.so 
+debug  : cedarc <AddVDPluginSingle:1497>: vdecoder open lib: /usr/lib/libcdc_vd_mpeg4dx.so
+warning: cedarc <VDecoderRegister:128>: register codec: '105:mpeg4dx' success.
+warning: cedarc <VDecoderRegister:128>: register codec: '106:mpeg4dx' success.
+warning: cedarc <VDecoderRegister:128>: register codec: '107:mpeg4dx' success.
+warning: cedarc <VDecoderRegister:128>: register codec: '10e:mpeg4dx' success.
+warning: cedarc <VDecoderRegister:128>: register codec: '10f:mpeg4dx' success.
+warning: cedarc <AddVDPlugin:1544>:  1117 load so: /usr/lib/libcdc_vd_vp9Hw.so 
+debug  : cedarc <AddVDPluginSingle:1497>: vdecoder open lib: /usr/lib/libcdc_vd_vp9Hw.so
+warning: cedarc <VDecoderRegister:128>: register codec: '113:Vp9Hw' success.
+warning: cedarc <AddVDPlugin:1544>:  1117 load so: /usr/lib/libcdc_vd_mpeg4normal.so 
+debug  : cedarc <AddVDPluginSingle:1497>: vdecoder open lib: /usr/lib/libcdc_vd_mpeg4normal.so
+warning: cedarc <VDecoderRegister:128>: register codec: '10a:mpeg4Normal' success.
+warning: cedarc <VDecoderRegister:128>: register codec: '10c:mpeg4Normal' success.
+warning: cedarc <VDecoderRegister:128>: register codec: '108:mpeg4Normal' success.
+warning: cedarc <VDecoderRegister:128>: register codec: '109:mpeg4Normal' success.
+warning: cedarc <AddVDPlugin:1544>:  1117 load so: /usr/lib/libcdc_vd_avs.so 
+debug  : cedarc <AddVDPluginSingle:1497>: vdecoder open lib: /usr/lib/libcdc_vd_avs.so
+warning: cedarc <VDecoderRegister:128>: register codec: '117:avs' success.
+warning: cedarc <AddVDPlugin:1544>:  1117 load so: /usr/lib/libcdc_vd_h265.so 
+debug  : cedarc <AddVDPluginSingle:1497>: vdecoder open lib: /usr/lib/libcdc_vd_h265.so
+warning: cedarc <VDecoderRegister:128>: register codec: '116:h265' success.
+warning: cedarc <AddVDPlugin:1544>:  1117 load so: /usr/lib/libcdc_vd_mpeg2.so 
+debug  : cedarc <AddVDPluginSingle:1497>: vdecoder open lib: /usr/lib/libcdc_vd_mpeg2.so
+warning: cedarc <VDecoderRegister:128>: register codec: '102:mpeg2' success.
+warning: cedarc <VDecoderRegister:128>: register codec: '103:mpeg2' success.
+warning: cedarc <AddVDPlugin:1544>:  1117 load so: /usr/lib/libcdc_vd_mpeg4h263.so 
+debug  : cedarc <AddVDPluginSingle:1497>: vdecoder open lib: /usr/lib/libcdc_vd_mpeg4h263.so
+warning: cedarc <VDecoderRegister:128>: register codec: '104:mpeg4H263' success.
+warning: cedarc <VDecoderRegister:128>: register codec: '10b:mpeg4H263' success.
+warning: cedarc <VDecoderRegister:128>: register codec: '10d:mpeg4H263' success.
+warning: cedarc <AddVDPlugin:1544>:  1117 load so: /usr/lib/libcdc_vd_wmv3.so 
+debug  : cedarc <AddVDPluginSingle:1497>: vdecoder open lib: /usr/lib/libcdc_vd_wmv3.so
+warning: cedarc <VDecoderRegister:128>: register codec: '110:vc1' success.
+warning: cedarc <AddVDPlugin:1544>:  1117 load so: /usr/lib/libcdc_vd_vp8.so 
+debug  : cedarc <AddVDPluginSingle:1497>: vdecoder open lib: /usr/lib/libcdc_vd_vp8.so
+warning: cedarc <VDecoderRegister:128>: register codec: '112:vp8' success.
+warning: cedarc <AddVDPlugin:1544>:  1117 load so: /usr/lib/libaws-iot-sdk-cpp.so 
+error  : cedarc <AddVDPluginSingle:1487>: [40;31mdlopen '/usr/lib/libaws-iot-sdk-cpp.so' fail: Error relocating /usr/lib/libaws-iot-sdk-cpp.so: SSL_connect: symbol not found[0m
+warning: cedarc <AddVDPlugin:1544>:  1117 load so: /usr/lib/libcdc_vd_mpeg4base.so 
+warning: cedarc <AddVDPluginSingle:1494>: Invalid plugin, CedarPluginVDInit not found.
+warning: cedarc <AddVDPlugin:1544>:  1117 load so: /usr/lib/libcdc_vd_mjpegs.so 
+debug  : cedarc <AddVDPluginSingle:1497>: vdecoder open lib: /usr/lib/libcdc_vd_mjpegs.so
+warning: cedarc <VDecoderRegister:128>: register codec: '101:mjpegplus' success.
+warning: cedarc <AddVDPlugin:1544>:  1117 load so: /usr/lib/libcdc_vd_mjpeg.so 
+debug  : cedarc <AddVDPluginSingle:1497>: vdecoder open lib: /usr/lib/libcdc_vd_mjpeg.so
+warning: cedarc <VDecoderRegister:128>: register codec: '101:mjpeg' success.
+warning: cedarc <AddVDPlugin:1544>:  1117 load so: /usr/lib/libcdc_vd_mpeg4vp6.so 
+debug  : cedarc <AddVDPluginSingle:1497>: vdecoder open lib: /usr/lib/libcdc_vd_mpeg4vp6.so
+warning: cedarc <VDecoderRegister:128>: register codec: '111:Mpeg4Vp6' success.
+warning: cedarc <AddVDPlugin:1544>:  1117 load so: /usr/lib/libcdc_vd_h264.so 
+debug  : cedarc <AddVDPluginSingle:1497>: vdecoder open lib: /usr/lib/libcdc_vd_h264.so
+warning: cedarc <VDecoderRegister:128>: register codec: '115:h264' success.
+warning: cedarc <AddVDPlugin:1544>:  1117 load so: /usr/lib/libcdc_vdecoder.so 
+warning: cedarc <AddVDPluginSingle:1494>: Invalid plugin, CedarPluginVDInit not found.
+debug  : cedarc <CdcGetSysinfoChipId:77>: 000000bc
+
+debug  : cedarc <CdcGetSysinfoChipId:77>: 000000bc
+
+debug  : cedarc <CdcGetSysinfoChipId:77>: 000000bc
+
+debug  : cedarc <CdcGetSysinfoChipId:77>: 000000bc
+
+debug  : cedarc <CdcGetSysinfoChipId:77>: 000000bc
+
+debug  : cedarc <CdcGetSysinfoChipId:77>: 000000bc
+
+debug  : omx_vdec <processThreadCommand:5311>:  set state command, cmd = 0, cmddata = 2.
+debug  : omx_vdec <processThreadCommand:5311>:  set state command, cmd = 0, cmddata = 3.
+debug  : omx_vdec <detectFirstStreamData:4440>: (f:detectFirstStreamData, l:4440) wait for VDRV_THREAD_CMD_PREPARE_VDECODER
+debug  : omx_vdec <processVdrvThreadCommand:5393>: (f:processVdrvThreadCommand, l:5393) vdrvThread receive cmd[0x0]
+debug  : omx_vdec <vdecoderPrepare:4131>: (f:vdecoderPrepare, l:4131)(VDRV_THREAD_CMD_PREPARE_VDECODER)
+debug  : cedarc <LogVersionInfo:40>: 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Cedar Codec <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+tag   : v1.1.7-patch-004
+branch: master
+commit: fb6121392967d52461ea560e0c950f10486bb504
+date  : Wed Oct 11 15:47:46 2017 +0800
+author: jenkins8080
+patch : 
+----------------------------------------------------------------------
+
+debug  : cedarc <CreateVideoDecoder:208>: CreateVideoDecoder ****
+debug  : ionAlloc <__GetIonMemOpsS:927>: *** get __GetIonMemOpsS ***
+debug  : cedarc <InitializeVideoDecoder:344>: *** pVconfig->nVeFreq = 0
+debug  : ionAlloc <__GetIonMemOpsS:927>: *** get __GetIonMemOpsS ***
+debug  : ionAlloc <ion_alloc_open:134>: begin ion_alloc_open 
+
+debug  : cedarc <getVeAwOpsS:1582>: ***********3333 getVeAwOpsS************
+debug  : cedarc <VeInitialize:882>: *****************gVeEnvironmentInfo.nVeRefCount = 0
+debug  : cedarc <VeInitialize:895>: **********gVeEnvironmentInfo.nVeDriverFd = 42
+debug  : cedarc <VeInitialize:956>: *** nPhyOffset = 40000000
+debug  : ionAlloc <ion_alloc_open:175>: ** phy offset = 40000000
+warning: cedarc <InitializeVideoDecoder:429>: warning: the nDeInterlaceHoldingFrameBufferNum is 0
+warning: cedarc <InitializeVideoDecoder:435>: warning: the nDisplayHoldingFrameBufferNum is 0
+debug  : cedarc <getVeAwOpsS:1582>: ***********3333 getVeAwOpsS************
+debug  : cedarc <VeInitialize:882>: *****************gVeEnvironmentInfo.nVeRefCount = 0
+debug  : cedarc <VeInitialize:895>: **********gVeEnvironmentInfo.nVeDriverFd = 43
+debug  : cedarc <VeInitialize:956>: *** nPhyOffset = 40000000
+debug  : cedarc <VideoEngineCreate:381>: *** pEngine->nIcVeVersion = 1689, decIpVersion = 0
+debug  : cedarc <VeGetChipId:1196>: 000000bc
+
+debug  : cedarc <CreateSpecificDecoder:1205>: Create decoder '115:h264'
+debug  : cedarc <VideoEngineCreate:468>: **************eCtlAfcbMode = 0
+debug  : cedarc <GetSbmInterfaceFrameAvc:2128>: ******* sbm-type: Frame_AVC*******
+debug  : cedarc <CdcMessageQueueCreate:47>: nMessageSize = 40
+debug  : omx_vdec <detectFirstStreamData:4443>: (f:detectFirstStreamData, l:4443) wait for VDRV_THREAD_CMD_PREPARE_VDECODER done!
+debug  : cedarc <checkBitStreamType:1386>: result: bStreamWithStartCode[1], with[1], whitout[0]
+warning: omx_vdec <ComponentThread:5641>: *** get video fbm buf info!
+warning: omx_vdec <ComponentThread:5655>: *** get new command when get video fbm-buf-info
+debug  : cedarc <H264DecVuiParameters:314>: nFrameRate=29
+warning: omx_vdec <ComponentThread:5641>: *** get video fbm buf info!
+debug  : cedarc <H264DecodePictureScanType:2586>: here3:hCtx->bProgressice=1
+
+debug  : fbm.c <FbmCreateBuffer:124>: FbmCreate, total fbm number: 10, decoder needed: 3,  nWidth=320, nHeight=240 nAlignStride = 32
+debug  : fbm.c <FbmCreateBuffer:272>: *** calcute nLower2BitBufOffset = 0, stride = 0
+debug  : fbm.c <FbmCreateBuffer:272>: *** calcute nLower2BitBufOffset = 0, stride = 0
+debug  : fbm.c <FbmCreateBuffer:272>: *** calcute nLower2BitBufOffset = 0, stride = 0
+debug  : fbm.c <FbmCreateBuffer:272>: *** calcute nLower2BitBufOffset = 0, stride = 0
+debug  : fbm.c <FbmCreateBuffer:272>: *** calcute nLower2BitBufOffset = 0, stride = 0
+debug  : fbm.c <FbmCreateBuffer:272>: *** calcute nLower2BitBufOffset = 0, stride = 0
+debug  : fbm.c <FbmCreateBuffer:272>: *** calcute nLower2BitBufOffset = 0, stride = 0
+debug  : fbm.c <FbmCreateBuffer:272>: *** calcute nLower2BitBufOffset = 0, stride = 0
+debug  : fbm.c <FbmCreateBuffer:272>: *** calcute nLower2BitBufOffset = 0, stride = 0
+debug  : fbm.c <FbmCreateBuffer:272>: *** calcute nLower2BitBufOffset = 0, stride = 0
+debug  : fbm.c <FbmCreateBuffer:347>: *** finish fbmCreateBuffer
+warning: omx_vdec <ComponentThread:5641>: *** get video fbm buf info!
+debug  : omx_vdec <OmxGetVideoFbmBufInfo:5003>: video buffer info: nWidth[320],nHeight[256],nBufferCount[10],ePixelFormat[4]
+debug  : omx_vdec <OmxGetVideoFbmBufInfo:5006>: video buffer info: nAlignValue[32],bProgressiveFlag[1],bIsSoftDecoderFlag[0]
+debug  : omx_vdec <OmxGetVideoFbmBufInfo:5029>: *** bBufferNumMatchFlag = 0
+debug  : omx_vdec <OmxGetVideoFbmBufInfo:5048>: ************** port setting change ************
+debug  : omx_vdec <OmxGetVideoFbmBufInfo:5054>: ****  buffer num: 4, 10; w&h: 176, 144, 320, 256
+debug  : omx_vdec <controlStopPort:3586>:  stop port command, cmddata = 1.
+debug  : omx_vdec <controlRestartPort:3769>:  restart port command.pSelf->m_state[3]
+debug  : omx_vdec <allocate_buffer:2795>: x allocate 10 buffers.
+debug  : omx_vdec <OmxReturnBufferToDecoder:5211>: *** call SetVideoFbmBufAddress: pVideoPicture(0x37b89638)
+debug  : omx_vdec <OmxReturnBufferToDecoder:5211>: *** call SetVideoFbmBufAddress: pVideoPicture(0x37b89788)
+debug  : omx_vdec <OmxReturnBufferToDecoder:5211>: *** call SetVideoFbmBufAddress: pVideoPicture(0x37b898d8)
+debug  : omx_vdec <OmxReturnBufferToDecoder:5211>: *** call SetVideoFbmBufAddress: pVideoPicture(0x37b89a28)
+debug  : omx_vdec <OmxReturnBufferToDecoder:5211>: *** call SetVideoFbmBufAddress: pVideoPicture(0x37b89b78)
+debug  : omx_vdec <OmxReturnBufferToDecoder:5211>: *** call SetVideoFbmBufAddress: pVideoPicture(0x37b89cc8)
+debug  : omx_vdec <OmxReturnBufferToDecoder:5211>: *** call SetVideoFbmBufAddress: pVideoPicture(0x37b89e18)
+debug  : omx_vdec <OmxReturnBufferToDecoder:5211>: *** call SetVideoFbmBufAddress: pVideoPicture(0x37b89f68)
+createContext line 234, pid 1452.
+createContext line 240, pid 1452.
+createContext line 249, pid 1452.
+The configuration couldn't be loaded: No such file or directory
+EGL API version 1.4 found
+ - Vendor: ARM
+ - Version: 1.4 Linux-r6p2-01rel0
+ - Client APIs: OpenGL_ES
+ - Extensions:
+	EGL_KHR_image EGL_KHR_image_base EGL_KHR_image_pixmap EGL_EXT_image_dma_buf_import EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_reusable_sync EGL_KHR_fence_sync EGL_KHR_swap_buffers_with_damage EGL_EXT_swap_buffers_with_damage EGL_KHR_lock_surface EGL_KHR_lock_surface2 EGL_EXT_create_context_robustness EGL_ANDROID_blob_cache EGL_KHR_create_context EGL_WL_bind_wayland_display EGL_KHR_partial_update EGL_KHR_create_context_no_error 
+gdk_wayland_gl_context_end_frame line 254, pid 1438.w 648, h 353.
+gdk_wayland_gl_context_end_frame line 254, pid 1438.w 648, h 353.
+gdk_wayland_gl_context_end_frame line 254, pid 1438.w 648, h 353.
+gdk_wayland_gl_context_end_frame line 254, pid 1438.w 648, h 353.
+gdk_wayland_gl_context_end_frame line 254, pid 1438.w 648, h 353.
+gdk_wayland_gl_context_end_frame line 254, pid 1438.w 648, h 353.
+gdk_wayland_gl_context_end_frame line 254, pid 1438.w 648, h 353.
+gdk_wayland_gl_context_end_frame line 254, pid 1438.w 648, h 353.
+gdk_wayland_gl_context_end_frame line 254, pid 1438.w 648, h 353.
+gdk_wayland_gl_context_end_frame line 254, pid 1438.w 648, h 353.
+gdk_wayland_gl_context_end_frame line 254, pid 1438.w 648, h 353.
+gdk_wayland_gl_context_end_frame line 254, pid 1438.w 648, h 353.
+gdk_wayland_gl_context_end_frame line 254, pid 1438.w 648, h 353.
+gdk_wayland_gl_context_end_frame line 254, pid 1438.w 648, h 353.
+gdk_wayland_gl_context_end_frame line 254, pid 1438.w 648, h 353.
+gdk_wayland_gl_context_end_frame line 254, pid 1438.w 648, h 353.
+gdk_wayland_gl_context_end_frame line 254, pid 1438.w 648, h 353.
+gdk_wayland_gl_context_end_frame line 254, pid 1438.w 648, h 353.
+gdk_wayland_gl_context_end_frame line 254, pid 1438.w 648, h 353.
+gdk_wayland_gl_context_end_frame line 254, pid 1438.w 648, h 353.
+gdk_wayland_gl_context_end_frame line 254, pid 1438.w 648, h 353.
+gdk_wayland_gl_context_end_frame line 254, pid 1438.w 648, h 353.
+gdk_wayland_gl_context_end_frame line 254, pid 1438.w 648, h 353.
+gdk_wayland_gl_context_end_frame line 254, pid 1438.w 648, h 353.
+gdk_wayland_gl_context_end_frame line 254, pid 1438.w 648, h 353.
+gdk_wayland_gl_context_end_frame line 254, pid 1438.w 648, h 353.
+gdk_wayland_gl_context_end_frame line 254, pid 1438.w 648, h 353.
+gdk_wayland_gl_context_end_frame line 254, pid 1438.w 648, h 353.
+gdk_wayland_gl_context_end_frame line 254, pid 1438.w 648, h 353.
+gdk_wayland_gl_context_end_frame line 254, pid 1438.w 648, h 353.
+gdk_wayland_gl_context_end_frame line 254, pid 1438.w 648, h 353.
+gdk_wayland_gl_context_end_frame line 254, pid 1438.w 648, h 353.
+gdk_wayland_gl_context_end_frame line 254, pid 1438.w 648, h 353.
+gdk_wayland_gl_context_end_frame line 254, pid 1438.w 648, h 353.
+gdk_wayland_gl_context_end_frame line 254, pid 1438.w 648, h 353.
+gdk_wayland_gl_context_end_frame line 254, pid 1438.w 648, h 353.
+gdk_wayland_gl_context_end_frame line 254, pid 1438.w 648, h 353.
+gdk_wayland_gl_context_end_frame line 254, pid 1438.w 648, h 353.
+gdk_wayland_gl_context_end_frame line 254, pid 1438.w 648, h 353.
+gdk_wayland_gl_context_end_frame line 254, pid 1438.w 648, h 353.
+gdk_wayland_gl_context_end_frame line 254, pid 1438.w 648, h 353.
+gdk_wayland_gl_context_end_frame line 254, pid 1438.w 648, h 353.
+gdk_wayland_gl_context_end_frame line 254, pid 1438.w 648, h 353.
+gdk_wayland_gl_context_end_frame line 254, pid 1438.w 648, h 353.
