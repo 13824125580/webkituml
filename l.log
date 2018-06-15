@@ -1,0 +1,665 @@
+createPlatformDisplay line 89, pid 1510.
+createPlatformDisplay line 89, pid 1524.
+createPlatformDisplay line 89, pid 1530.
+debug  : omx_vdec <omx_vdec:401>: (f:omx_vdec, l:401) 
+debug  : cedarc <getVeAwOpsS:1582>: ***********3333 getVeAwOpsS************
+debug  : cedarc <VeInitialize:882>: *****************gVeEnvironmentInfo.nVeRefCount = 0
+debug  : cedarc <VeInitialize:895>: **********gVeEnvironmentInfo.nVeDriverFd = 36
+debug  : cedarc <VeInitialize:956>: *** nPhyOffset = 40000000
+debug  : omx_vdec <omx_vdec:559>: ** nPhyOffset = 40000000
+debug  : cedarc <CdcMessageQueueCreate:47>: nMessageSize = 40
+debug  : cedarc <CdcMessageQueueCreate:47>: nMessageSize = 40
+debug  : cedarc <CdcMessageQueueCreate:47>: nMessageSize = 40
+warning: cedarc <AddVDPlugin:1534>: 1117 get local path: /usr/lib/
+warning: cedarc <AddVDPlugin:1544>:  1117 load so: /usr/lib/libcdc_vd_vp9Hw.so 
+debug  : cedarc <AddVDPluginSingle:1497>: vdecoder open lib: /usr/lib/libcdc_vd_vp9Hw.so
+warning: cedarc <VDecoderRegister:128>: register codec: '113:Vp9Hw' success.
+warning: cedarc <AddVDPlugin:1544>:  1117 load so: /usr/lib/libaws-iot-sdk-cpp.so 
+error  : cedarc <AddVDPluginSingle:1487>: [40;31mdlopen '/usr/lib/libaws-iot-sdk-cpp.so' fail: Error relocating /usr/lib/libaws-iot-sdk-cpp.so: SSL_connect: symbol not found[0m
+warning: cedarc <AddVDPlugin:1544>:  1117 load so: /usr/lib/libcdc_vd_h264.so 
+debug  : cedarc <AddVDPluginSingle:1497>: vdecoder open lib: /usr/lib/libcdc_vd_h264.so
+warning: cedarc <VDecoderRegister:128>: register codec: '115:h264' success.
+warning: cedarc <AddVDPlugin:1544>:  1117 load so: /usr/lib/libcdc_vd_mpeg4h263.so 
+debug  : cedarc <AddVDPluginSingle:1497>: vdecoder open lib: /usr/lib/libcdc_vd_mpeg4h263.so
+warning: cedarc <VDecoderRegister:128>: register codec: '104:mpeg4H263' success.
+warning: cedarc <VDecoderRegister:128>: register codec: '10b:mpeg4H263' success.
+warning: cedarc <VDecoderRegister:128>: register codec: '10d:mpeg4H263' success.
+warning: cedarc <AddVDPlugin:1544>:  1117 load so: /usr/lib/libcdc_vd_mpeg4vp6.so 
+debug  : cedarc <AddVDPluginSingle:1497>: vdecoder open lib: /usr/lib/libcdc_vd_mpeg4vp6.so
+warning: cedarc <VDecoderRegister:128>: register codec: '111:Mpeg4Vp6' success.
+warning: cedarc <AddVDPlugin:1544>:  1117 load so: /usr/lib/libcdc_vd_mpeg4base.so 
+warning: cedarc <AddVDPluginSingle:1494>: Invalid plugin, CedarPluginVDInit not found.
+warning: cedarc <AddVDPlugin:1544>:  1117 load so: /usr/lib/libcdc_vd_mpeg2.so 
+debug  : cedarc <AddVDPluginSingle:1497>: vdecoder open lib: /usr/lib/libcdc_vd_mpeg2.so
+warning: cedarc <VDecoderRegister:128>: register codec: '102:mpeg2' success.
+warning: cedarc <VDecoderRegister:128>: register codec: '103:mpeg2' success.
+warning: cedarc <AddVDPlugin:1544>:  1117 load so: /usr/lib/libcdc_vdecoder.so 
+warning: cedarc <AddVDPluginSingle:1494>: Invalid plugin, CedarPluginVDInit not found.
+warning: cedarc <AddVDPlugin:1544>:  1117 load so: /usr/lib/libcdc_vd_wmv3.so 
+debug  : cedarc <AddVDPluginSingle:1497>: vdecoder open lib: /usr/lib/libcdc_vd_wmv3.so
+warning: cedarc <VDecoderRegister:128>: register codec: '110:vc1' success.
+warning: cedarc <AddVDPlugin:1544>:  1117 load so: /usr/lib/libcdc_vd_vp8.so 
+debug  : cedarc <AddVDPluginSingle:1497>: vdecoder open lib: /usr/lib/libcdc_vd_vp8.so
+warning: cedarc <VDecoderRegister:128>: register codec: '112:vp8' success.
+warning: cedarc <AddVDPlugin:1544>:  1117 load so: /usr/lib/libcdc_vd_h265.so 
+debug  : cedarc <AddVDPluginSingle:1497>: vdecoder open lib: /usr/lib/libcdc_vd_h265.so
+warning: cedarc <VDecoderRegister:128>: register codec: '116:h265' success.
+warning: cedarc <AddVDPlugin:1544>:  1117 load so: /usr/lib/libcdc_vd_avs.so 
+debug  : cedarc <AddVDPluginSingle:1497>: vdecoder open lib: /usr/lib/libcdc_vd_avs.so
+warning: cedarc <VDecoderRegister:128>: register codec: '117:avs' success.
+warning: cedarc <AddVDPlugin:1544>:  1117 load so: /usr/lib/libcdc_vd_mjpegs.so 
+debug  : cedarc <AddVDPluginSingle:1497>: vdecoder open lib: /usr/lib/libcdc_vd_mjpegs.so
+warning: cedarc <VDecoderRegister:128>: register codec: '101:mjpegplus' success.
+warning: cedarc <AddVDPlugin:1544>:  1117 load so: /usr/lib/libcdc_vd_mpeg4dx.so 
+debug  : cedarc <AddVDPluginSingle:1497>: vdecoder open lib: /usr/lib/libcdc_vd_mpeg4dx.so
+warning: cedarc <VDecoderRegister:128>: register codec: '105:mpeg4dx' success.
+warning: cedarc <VDecoderRegister:128>: register codec: '106:mpeg4dx' success.
+warning: cedarc <VDecoderRegister:128>: register codec: '107:mpeg4dx' success.
+warning: cedarc <VDecoderRegister:128>: register codec: '10e:mpeg4dx' success.
+warning: cedarc <VDecoderRegister:128>: register codec: '10f:mpeg4dx' success.
+warning: cedarc <AddVDPlugin:1544>:  1117 load so: /usr/lib/libcdc_vd_mjpeg.so 
+debug  : cedarc <AddVDPluginSingle:1497>: vdecoder open lib: /usr/lib/libcdc_vd_mjpeg.so
+warning: cedarc <VDecoderRegister:128>: register codec: '101:mjpeg' success.
+warning: cedarc <AddVDPlugin:1544>:  1117 load so: /usr/lib/libcdc_vd_mpeg4normal.so 
+debug  : cedarc <AddVDPluginSingle:1497>: vdecoder open lib: /usr/lib/libcdc_vd_mpeg4normal.so
+warning: cedarc <VDecoderRegister:128>: register codec: '10a:mpeg4Normal' success.
+warning: cedarc <VDecoderRegister:128>: register codec: '10c:mpeg4Normal' success.
+warning: cedarc <VDecoderRegister:128>: register codec: '108:mpeg4Normal' success.
+warning: cedarc <VDecoderRegister:128>: register codec: '109:mpeg4Normal' success.
+debug  : cedarc <CdcGetSysinfoChipId:77>: 000000bc
+
+debug  : cedarc <CdcGetSysinfoChipId:77>: 000000bc
+
+debug  : cedarc <CdcGetSysinfoChipId:77>: 000000bc
+
+debug  : cedarc <CdcGetSysinfoChipId:77>: 000000bc
+
+debug  : cedarc <CdcGetSysinfoChipId:77>: 000000bc
+
+debug  : cedarc <CdcGetSysinfoChipId:77>: 000000bc
+
+debug  : omx_vdec <processThreadCommand:5311>:  set state command, cmd = 0, cmddata = 2.
+debug  : omx_vdec <processThreadCommand:5311>:  set state command, cmd = 0, cmddata = 3.
+debug  : omx_vdec <detectFirstStreamData:4440>: (f:detectFirstStreamData, l:4440) wait for VDRV_THREAD_CMD_PREPARE_VDECODER
+debug  : omx_vdec <processVdrvThreadCommand:5393>: (f:processVdrvThreadCommand, l:5393) vdrvThread receive cmd[0x0]
+debug  : omx_vdec <vdecoderPrepare:4131>: (f:vdecoderPrepare, l:4131)(VDRV_THREAD_CMD_PREPARE_VDECODER)
+debug  : cedarc <LogVersionInfo:40>: 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Cedar Codec <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+tag   : v1.1.7-patch-004
+branch: master
+commit: fb6121392967d52461ea560e0c950f10486bb504
+date  : Wed Oct 11 15:47:46 2017 +0800
+author: jenkins8080
+patch : 
+----------------------------------------------------------------------
+
+debug  : cedarc <CreateVideoDecoder:208>: CreateVideoDecoder ****
+debug  : ionAlloc <__GetIonMemOpsS:927>: *** get __GetIonMemOpsS ***
+debug  : cedarc <InitializeVideoDecoder:344>: *** pVconfig->nVeFreq = 0
+debug  : ionAlloc <__GetIonMemOpsS:927>: *** get __GetIonMemOpsS ***
+debug  : ionAlloc <ion_alloc_open:134>: begin ion_alloc_open 
+
+debug  : cedarc <getVeAwOpsS:1582>: ***********3333 getVeAwOpsS************
+debug  : cedarc <VeInitialize:882>: *****************gVeEnvironmentInfo.nVeRefCount = 0
+debug  : cedarc <VeInitialize:895>: **********gVeEnvironmentInfo.nVeDriverFd = 42
+debug  : cedarc <VeInitialize:956>: *** nPhyOffset = 40000000
+debug  : ionAlloc <ion_alloc_open:175>: ** phy offset = 40000000
+warning: cedarc <InitializeVideoDecoder:429>: warning: the nDeInterlaceHoldingFrameBufferNum is 0
+warning: cedarc <InitializeVideoDecoder:435>: warning: the nDisplayHoldingFrameBufferNum is 0
+debug  : cedarc <getVeAwOpsS:1582>: ***********3333 getVeAwOpsS************
+debug  : cedarc <VeInitialize:882>: *****************gVeEnvironmentInfo.nVeRefCount = 0
+debug  : cedarc <VeInitialize:895>: **********gVeEnvironmentInfo.nVeDriverFd = 43
+debug  : cedarc <VeInitialize:956>: *** nPhyOffset = 40000000
+debug  : cedarc <VideoEngineCreate:381>: *** pEngine->nIcVeVersion = 1689, decIpVersion = 0
+debug  : cedarc <VeGetChipId:1196>: 000000bc
+
+debug  : cedarc <CreateSpecificDecoder:1205>: Create decoder '115:h264'
+debug  : cedarc <VideoEngineCreate:468>: **************eCtlAfcbMode = 0
+debug  : cedarc <GetSbmInterfaceFrameAvc:2128>: ******* sbm-type: Frame_AVC*******
+debug  : cedarc <CdcMessageQueueCreate:47>: nMessageSize = 40
+debug  : omx_vdec <detectFirstStreamData:4443>: (f:detectFirstStreamData, l:4443) wait for VDRV_THREAD_CMD_PREPARE_VDECODER done!
+debug  : cedarc <checkBitStreamType:1386>: result: bStreamWithStartCode[1], with[1], whitout[0]
+warning: omx_vdec <ComponentThread:5641>: *** get video fbm buf info!
+warning: omx_vdec <ComponentThread:5655>: *** get new command when get video fbm-buf-info
+debug  : cedarc <H264DecVuiParameters:314>: nFrameRate=29
+debug  : cedarc <H264DecodePictureScanType:2586>: here3:hCtx->bProgressice=1
+
+debug  : fbm.c <FbmCreateBuffer:124>: FbmCreate, total fbm number: 10, decoder needed: 3,  nWidth=320, nHeight=240 nAlignStride = 32
+debug  : fbm.c <FbmCreateBuffer:272>: *** calcute nLower2BitBufOffset = 0, stride = 0
+debug  : fbm.c <FbmCreateBuffer:272>: *** calcute nLower2BitBufOffset = 0, stride = 0
+debug  : fbm.c <FbmCreateBuffer:272>: *** calcute nLower2BitBufOffset = 0, stride = 0
+debug  : fbm.c <FbmCreateBuffer:272>: *** calcute nLower2BitBufOffset = 0, stride = 0
+debug  : fbm.c <FbmCreateBuffer:272>: *** calcute nLower2BitBufOffset = 0, stride = 0
+debug  : fbm.c <FbmCreateBuffer:272>: *** calcute nLower2BitBufOffset = 0, stride = 0
+debug  : fbm.c <FbmCreateBuffer:272>: *** calcute nLower2BitBufOffset = 0, stride = 0
+debug  : fbm.c <FbmCreateBuffer:272>: *** calcute nLower2BitBufOffset = 0, stride = 0
+debug  : fbm.c <FbmCreateBuffer:272>: *** calcute nLower2BitBufOffset = 0, stride = 0
+debug  : fbm.c <FbmCreateBuffer:272>: *** calcute nLower2BitBufOffset = 0, stride = 0
+debug  : fbm.c <FbmCreateBuffer:347>: *** finish fbmCreateBuffer
+warning: omx_vdec <ComponentThread:5641>: *** get video fbm buf info!
+debug  : omx_vdec <OmxGetVideoFbmBufInfo:5003>: video buffer info: nWidth[320],nHeight[256],nBufferCount[10],ePixelFormat[4]
+debug  : omx_vdec <OmxGetVideoFbmBufInfo:5006>: video buffer info: nAlignValue[32],bProgressiveFlag[1],bIsSoftDecoderFlag[0]
+debug  : omx_vdec <OmxGetVideoFbmBufInfo:5029>: *** bBufferNumMatchFlag = 0
+debug  : omx_vdec <OmxGetVideoFbmBufInfo:5048>: ************** port setting change ************
+debug  : omx_vdec <OmxGetVideoFbmBufInfo:5054>: ****  buffer num: 4, 10; w&h: 176, 144, 320, 256
+debug  : omx_vdec <controlStopPort:3586>:  stop port command, cmddata = 1.
+debug  : omx_vdec <allocate_buffer:2795>: x allocate 10 buffers.
+debug  : omx_vdec <controlRestartPort:3769>:  restart port command.pSelf->m_state[3]
+debug  : omx_vdec <OmxReturnBufferToDecoder:5211>: *** call SetVideoFbmBufAddress: pVideoPicture(0x311571f8)
+debug  : omx_vdec <OmxReturnBufferToDecoder:5211>: *** call SetVideoFbmBufAddress: pVideoPicture(0x31157348)
+debug  : omx_vdec <OmxReturnBufferToDecoder:5211>: *** call SetVideoFbmBufAddress: pVideoPicture(0x31157498)
+debug  : omx_vdec <OmxReturnBufferToDecoder:5211>: *** call SetVideoFbmBufAddress: pVideoPicture(0x311575e8)
+debug  : omx_vdec <OmxReturnBufferToDecoder:5211>: *** call SetVideoFbmBufAddress: pVideoPicture(0x31157738)
+debug  : omx_vdec <OmxReturnBufferToDecoder:5211>: *** call SetVideoFbmBufAddress: pVideoPicture(0x31157888)
+debug  : omx_vdec <OmxReturnBufferToDecoder:5211>: *** call SetVideoFbmBufAddress: pVideoPicture(0x311579d8)
+debug  : omx_vdec <OmxReturnBufferToDecoder:5211>: *** call SetVideoFbmBufAddress: pVideoPicture(0x31157b28)
+debug  : omx_vdec <OmxReturnBufferToDecoderEGL API version 1.4 found
+ - Vendor: ARM
+ - Version: 1.4 Linux-r6p2-01rel0
+ - Client APIs: OpenGL_ES
+ - Extensions:
+	EGL_KHR_image EGL_KHR_image_base EGL_KHR_image_pixmap EGL_EXT_image_dma_buf_import EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_reusable_sync EGL_KHR_fence_sync EGL_KHR_swap_buffers_with_damage EGL_EXT_swap_buffers_with_damage EGL_KHR_lock_surface EGL_KHR_lock_surface2 EGL_EXT_create_context_robustness EGL_ANDROID_blob_cache EGL_KHR_create_context EGL_WL_bind_wayland_display EGL_KHR_partial_update EGL_KHR_create_context_no_error 
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+:5211>: *** call SetVideoFbmBufAddress: pVideoPicture(0x31157c78)
+debug  : omx_vdec <OmxReturnBufferToDecoder:5211>: *** call SetVideoFbmBufAddress: pVideoPicture(0x31157dc8)
+debug  : omx_vdec <fill_this_buffer:2997>: vdec, fill_this_buffer 50 times
+debug  : omx_vdec <empty_this_buffer:2962>: vdec, empty_this_buffer 50 times
+debug  : omx_vdec <fill_this_buffer:2997>: vdec, fill_this_buffer 50 times
+debug  : omx_vdec <empty_this_buffer:2962>: vdec, empty_this_buffer 50 times
+debug  : omx_vdec <fill_this_buffer:2997>: vdec, fill_this_buffer 50 times
+debug  : omx_vdec <empty_this_buffer:2962>: vdec, empty_this_buffer 50 times
+debug  : omx_vdec <fill_this_buffer:2997>: vdec, fill_this_buffer 50 times
+debug  : omx_vdec <empty_this_buffer:2962>: vdec, empty_this_buffer 50 times
+debug  : omx_vdec <fill_this_buffer:2997>: vdec, fill_this_buffer 50 times
+debug  : omx_vdec <empty_this_buffer:2962>: vdec, empty_this_buffer 50 times
+debug  : omx_vdec <fill_this_buffer:2997>: vdec, fill_this_buffer 50 times
+debug  : omx_vdecgdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+ <empty_this_buffer:2962>: vdec, empty_this_buffer 50 times
+debug  : omx_vdec <fill_this_buffer:2997>: vdec, fill_this_buffer 50 times
+debug  : omx_vdec <empty_this_buffer:2962>: vdec, empty_this_buffer 50 times
+warning: cedarc <SubmitVideoStreamData:1203>: empty stream data frame submitted, pData=0x7f882239a3, nLength=0
+warning: cedarc <detectWithStartCode:1732>: can not find startCode, curNaluIdx = 1, max = 1024
+debug  : cedarc <disposeInvalidStreamData:1560>: **1 pCurFramePic->nlength = 145, flag = 1
+debug  : cedarc <disposeInvalidStreamData:1574>: **2, pCurFramePic->nlength = 145, diff = -1048431
+debug  : cedarc <disposeInvalidStreamData:1583>: disposeInvalidStreamData: bNeedAddFramePic = 0
+debug  : omx_vdec <sendStreamDataToDecoder:4681>: (f:sendStreamDataToDecoder) wait for VDRV_THREAD_CMD_EndOfStream
+debug  : omx_vdec <processVdrvThreadCommand:5393>: (f:processVdrvThreadCommand, l:5393) vdrvThread receive cmd[0x4]
+debug  : omx_vdec <processVdrvThreadCommand:5431>: (f:processVdrvThreadCommand, l:5431)(VDRV_THREAD_CMD_EndOfStream)
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+debug  : omx_vdec <sendStreamDataToDecoder:4683>: (f:sendStreamDataToDecoder) wait for VDRV_THREAD_CMD_EndOfStream done!
+debug  : omx_vdec <sendStreamDataToDecoder:4684>:  set up nInBufEos flag.
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 12579000
+debug  : omx_vdec <processOutputEosFlag:5287>: *** set out eos(use buffer owned by decoder), pic = 0x31157738
+debug  : omx_vdec <processThreadCommand:5311>:  set state command, cmd = 0, cmddata = 4.
+debug  : omx_vdec <controlFlush:3841>:  flush command.
+debug  : omx_vdec <controlFlush:3841>:  flush command.
+debug  : omx_vdec <controlFlush:3851>:  flush all port! we reset decoder!
+debug  : omx_vdec <controlFlush:3857>: (f:controlFlush, l:3857) wait for pause render 
+debug  : omx_vdec <processRenderThreadCommand:5453>: (f:processRenderThreadCommand, l:5453)(OMX_RenderCommand_Pause)
+debug  : omx_vdec <controlFlush:3859>: (f:controlFlush, l:3859) wait for pause render done!
+debug  : omx_vdec <controlFlush:3867>: (f:controlFlush, l:3867) wait for VDRV_THREAD_CMD_FLUSH_VDECODER
+debug  : omx_vdec <processVdrvThreadCommand:5393>: (f:processVdrvThreadCommand, l:5393) vdrvThread receive cmd[0x2]
+debug  : omx_vdec <processVdrvThreadCommand:5414>: (f:processVdrvThreadCommand, l:5414)(VDRV_THREAD_CMD_FLUSH_VDECODER)
+debug  : cedarc <SbmFrameAvcReset:386>: ** wait for reset sem
+debug  : cedarc <ProcessThread:2076>: *** post reset sem
+debug  : cedarc <SbmFrameAvcReset:388>: ** wait for reset sem ok
+debug  : cedarc <SbmFrameAvcReset:393>: SbmFrameReset finish
+debug  : omx_vdec <controlFlush:3870>: (f:controlFlush, l:3870) wait for VDRV_THREAD_CMD_FLUSH_VDECODER done!
+debug  : omx_vdec <controlFlush:3953>: fillBufferDone when flush: i[0],pHeadBufInfo[0x311e1c00],mStatus[2]
+debug  : omx_vdec <controlFlush:3953>: fillBufferDone when flush: i[1],pHeadBufInfo[0x311e1c88],mStatus[2]
+warning: omx_vdec <controlFlush:3962>: ** return pic when flush,i[2],pPic[0x31157498]
+warning: omx_vdec <controlFlush:3962>: ** return pic when flush,i[3],pPic[0x311575e8]
+debug  gdk_wayland_gl_context_end_frame line 254, pid 1510.
+: omx_vdec <controlFlush:3953>: fillBufferDone when flush: i[4],pHeadBufInfo[0x311e1e20],mStatus[2]
+debug  : omx_vdec <controlFlush:3953>: fillBufferDone when flush: i[5],pHeadBufInfo[0x311e1ea8],mStatus[2]
+debug  : omx_vdec <controlFlush:3953>: fillBufferDone when flush: i[6],pHeadBufInfo[0x311e1f30],mStatus[2]
+debug  : omx_vdec <controlFlush:3953>: fillBufferDone when flush: i[7],pHeadBufInfo[0x311e1fb8],mStatus[2]
+debug  : omx_vdec <controlFlush:3953>: fillBufferDone when flush: i[8],pHeadBufInfo[0x311e2040],mStatus[2]
+debug  : omx_vdec <controlFlush:3953>: fillBufferDone when flush: i[9],pHeadBufInfo[0x311e20c8],mStatus[2]
+debug  : omx_vdec <processThreadCommand:5311>:  set state command, cmd = 0, cmddata = 3.
+debug  : omx_vdec <controlEmptyBuf:4085>: pts jump [-12446721]us, prev[12612721],cur[166000],need reset vdeclib
+debug  : omx_vdec <ComponentThread:5593>: reset vdeclib for jump!
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = -1
+debug  : cedarc <detectWithStartCodegdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+:1704>: find eos, flush last stream frame, pts = 166000
+debug  : omx_vdec <fill_this_buffer:2997>: vdec, fill_this_buffer 50 times
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 200000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 233000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 266000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 300000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 333000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 367000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 400000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 433000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 467000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+500000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 533000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 567000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 600000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 633000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 667000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 700000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 734000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 767000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 800000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 834000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 867000
+debug  gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+: cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 900000
+debug  : omx_vdec <empty_this_buffer:2962>: vdec, empty_this_buffer 50 times
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 934000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 967000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 1001000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 1034000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 1067000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 1101000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 1134000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 1167000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 1201000
+debug  : cedarc <detectWithStartCodegdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+:1704>: find eos, flush last stream frame, pts = 1234000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 1267000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 1301000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 1334000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 1368000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 1401000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 1434000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 1468000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 1501000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 1534000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 1568000
+debug  : cedarc <detectWithStartCode:1704gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+>: find eos, flush last stream frame, pts = 1601000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 1634000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 1668000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 1701000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 1735000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 1768000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 1801000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 1835000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 1868000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 1901000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 1935000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+1968000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 2002000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 2035000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 2068000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 2102000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 2135000
+debug  : omx_vdec <fill_this_buffer:2997>: vdec, fill_this_buffer 50 times
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 2168000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 2202000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 2235000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 2268000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 2302000
+debug  : cedarcgdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+ <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 2335000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 2369000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 2402000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 2435000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 2469000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 2502000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 2535000
+debug  : omx_vdec <empty_this_buffer:2962>: vdec, empty_this_buffer 50 times
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 2569000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 2602000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 2635000
+debug  : cedarc <detectWithStartCodegdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+:1704>: find eos, flush last stream frame, pts = 2669000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 2702000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 2736000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 2769000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 2802000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 2836000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 2869000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 2902000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 2936000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 2969000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 3003000
+debug  : cedarc <detectWithStartCode:1704gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+>: find eos, flush last stream frame, pts = 3036000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 3069000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 3103000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 3136000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 3169000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 3203000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 3236000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 3269000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 3303000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 3336000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 3370000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+3403000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 3436000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 3470000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 3503000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 3536000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 3570000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 3603000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 3636000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 3670000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 3703000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 3737000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 3770000gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
+
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 3803000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 3837000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 3870000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 3903000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 3937000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 3970000
+debug  : omx_vdec <fill_this_buffer:2997>: vdec, fill_this_buffer 50 times
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 4004000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 4037000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 4070000
+debug  : cedarc <detectWithStartCode:1704>: find eos, flush last stream frame, pts = 4104000
+debug  : cedarc <detectWithStartCodegdk_wayland_gl_context_end_frame line 254, pid 1510.
+gdk_wayland_gl_context_end_frame line 254, pid 1510.
